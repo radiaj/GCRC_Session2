@@ -20,7 +20,7 @@ wget https://dl.dropboxusercontent.com/u/30969719/SRR1777876_accepted_hits_R2.fq
 wget https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R1.fq.gz
 wget https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R2.fq.gz
 ```
-Or you can launch it as a job on the cluster (download script from this repository).
+Or you can launch it as a job on the cluster (download pbs script from this repository).
 
 ```bash
 qsub getExampleFastq.pbs
