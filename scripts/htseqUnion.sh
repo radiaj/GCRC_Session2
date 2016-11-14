@@ -17,7 +17,7 @@ while read mySAMPLE
                 # Go to the STAR directory in the PARK_LAB folder
                 cd $SCRATCH/STAR/"${mySAMPLE}"_STAR/
 
-                python -m HTSeq.scripts.count intersection-nonempty -f sam "${mySAMPLE}"Aligned.out.sam "${myGTF}" >  "${mySAMPLE}".cnts
+                python -m HTSeq.scripts.count -m intersection-nonempty -f sam "${mySAMPLE}"Aligned.out.sam "${myGTF}" >  "${mySAMPLE}".cnts
 
 
 done < $FILENAME
