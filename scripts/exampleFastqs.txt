@@ -1,0 +1,2 @@
+SRR1777876_accepted_hits
+SRR1777877_accepted_hits
