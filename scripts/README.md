@@ -7,6 +7,7 @@ The documentation for the HTSeq program can be viewed at http://www-huber.embl.d
 Download and store the GCRC_Session2-master.zip file in your $SCRATCH directory. Then make all bash scripts executable.
 
 ```bash
+cd $SCRATCH
 unzip GCRC_Session2-master.zip
 cd GCRC_Session2-master/scripts/
 chmod a+x *.sh
