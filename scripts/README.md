@@ -3,7 +3,7 @@ The documentation for the STAR program can be viewd at https://github.com/alexdo
 
 The documentation for the HTSeq program can be viewed at http://www-huber.embl.de/users/anders/HTSeq/doc/count.html.
 
-# Running star.sh
+# Before running star.sh
 Download and store the GCRC_Session2-master.zip file in your $SCRATCH directory. Then make all bash scripts executable.
 
 ```bash
