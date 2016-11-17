@@ -6,7 +6,7 @@ module add SAMtools
 
 # Variables
 FILENAME=$1
-myGTF="/RQexec/johnsonr/Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf"
+myGTF="/yourfullpathtodirectory/Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf"
 count=0
 
 while read mySAMPLE
