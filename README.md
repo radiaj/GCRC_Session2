@@ -25,6 +25,16 @@ Or you can launch it as a job on the cluster (download pbs script from this repo
 ```bash
 qsub getExampleFastq.pbs
 ```
+# Before running getExample.pbs
+Please remember to modify **abc-123-aa** with your PI's CCRI
+```bash
+#!/bin/bash
+#PBS -A **abc-123-aa** 
+#PBS -l walltime=30:00:00
+#PBS -l nodes=2:ppn=8
+#PBS -q queue
+#PBS -r n
+```
 
 Alternatively, you can download the files from the links directly and transfer the files to your $SCRATCH drive on the cluster with FileZila. 
 
