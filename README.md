@@ -32,7 +32,7 @@ Please remember to modify **abc-123-aa** with your PI's CCRI
 #PBS -A **abc-123-aa** 
 #PBS -l walltime=30:00:00
 #PBS -l nodes=2:ppn=8
-#PBS -q queue
+#PBS -N runExample01
 #PBS -r n
 ```
 For more information on how to submit jobs on the Calcul Quebec clusters see https://wiki.calculquebec.ca/w/Exécuter_une_tâche/en#tab=tab1.
