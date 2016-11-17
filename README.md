@@ -35,7 +35,9 @@ Please remember to modify **abc-123-aa** with your PI's CCRI
 #PBS -q queue
 #PBS -r n
 ```
+For more information on how to submit jobs on the Calcul Quebec clusters see https://wiki.calculquebec.ca/w/Exécuter_une_tâche/en#tab=tab1.
 
+# Downloading files directly 
 Alternatively, you can download the files from the links directly and transfer the files to your $SCRATCH drive on the cluster with FileZila. 
 
 <sub>https://dl.dropboxusercontent.com/u/30969719/SRR1777876_accepted_hits_R1.fq.gz
@@ -43,7 +45,8 @@ https://dl.dropboxusercontent.com/u/30969719/SRR1777876_accepted_hits_R2.fq.gz
 https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R1.fq.gz
 https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R2.fq.gz</sub>
 
-You will also need to download the hg19 and mm10 reference genome from Illumina iGenomes at http://support.illumina.com/sequencing/sequencing_software/igenome.html. 
+# Downloading the hg19 reference genome from Illumina's iGenomes
+You will also need to download the hg19 reference genome from Illumina iGenomes at http://support.illumina.com/sequencing/sequencing_software/igenome.html. 
 You can directly download and untar these files in your $SCRATCH drive as follows:
 
 ```bash
