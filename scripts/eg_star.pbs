@@ -3,7 +3,7 @@
 #PBS -l walltime=47:58:00
 #PBS -N star110916
 #PBS -r n
-#PBS -A uaw-134-aa
+#PBS -A abc-123-aa
 
 
 cd /RQexec/johnsonr/GCRC_Session2-master/scripts
