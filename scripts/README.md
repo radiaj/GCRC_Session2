@@ -9,7 +9,7 @@ Download and store the GCRC_Session2-master.zip file in your $SCRATCH directory.
 ```bash
 cd $SCRATCH
 # Make STAR directory to store the results
-mkdir /RQexec/johnsonr/STAR
+mkdir STAR
 
 # Unzip the GCRC_Session2-master.zip file and make bash scripts executable
 unzip GCRC_Session2-master.zip
