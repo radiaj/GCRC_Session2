@@ -20,12 +20,11 @@ wget https://dl.dropboxusercontent.com/u/30969719/SRR1777876_accepted_hits_R2.fq
 wget https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R1.fq.gz
 wget https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R2.fq.gz
 ```
-Or you can run it as a script on the cluster ( getExampleFastq.sh script from this repository).
+Or you can run it as a bash script on the cluster (getExampleFastq.sh script from this repository).
 
 ```bash
 chmod a+x getExampleFastq.sh
 ./getExampleFastq.sh
-
 # The files should start downloading in your $SCRATCH drive
 ```
 # Before running .pbs files
