@@ -3,7 +3,7 @@
 #PBS -l walltime=47:59:00
 #PBS -N htseq001
 #PBS -r n
-#PBS -A bap-052-aa
+#PBS -A abc-123-aa
 
 cd /RQexec/johnsonr/GCRC_Session2-master/scripts
 ./htseqIntnempty.sh exampleFastqs.txt
