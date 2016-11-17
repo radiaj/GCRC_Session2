@@ -8,7 +8,7 @@ module add SAMtools
 FILENAME=$1
 myDIR=$2
 mySCRIPTDIR=$3
-myGENOMEDIR="/RQexec/johnsonr/Homo_sapiens/UCSC/hg19/Sequence/Chromosomes"
+myGENOMEDIR="/RQexec/johnsonr/Homo_sapiens/UCSC/hg19/Sequence/Chromosomes" # CHANGE TO YOU YOUR DIRECTORY
 
 # Start the count variable from 0
 count=0
