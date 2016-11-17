@@ -20,12 +20,15 @@ wget https://dl.dropboxusercontent.com/u/30969719/SRR1777876_accepted_hits_R2.fq
 wget https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R1.fq.gz
 wget https://dl.dropboxusercontent.com/u/30969719/SRR1777877_accepted_hits_R2.fq.gz
 ```
-Or you can launch it as a job on the cluster (download pbs script from this repository).
+Or you can run it as a script on the cluster ( getExampleFastq.sh script from this repository).
 
 ```bash
-qsub getExampleFastq.pbs
+chmod a+x getExampleFastq.sh
+./getExampleFastq.sh
+
+# The files should start downloading in your $SCRATCH drive
 ```
-# Before running getExample.pbs
+# Before running .pbs files
 Please remember to modify **abc-123-aa** with your PI's CCRI
 ```bash
 #!/bin/bash
