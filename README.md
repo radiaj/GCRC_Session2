@@ -1,3 +1,7 @@
+# UPDATES - 11/23/2016
+### STAR.sh file Updated ###
+### Added runSTARindex.sh script to run STAR index separately ###
+
 # GCRC_Session2
 Source code and files required for the GCRC bioinformatics workshop - Session 2 are available in this repository.
 
