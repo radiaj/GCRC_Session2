@@ -28,7 +28,7 @@ I added the runSTARindex.sh to run the STAR index once. You will need to make th
 #PBS -r n
 #PBS -A **your-pi-ccri**
 
-cd GCRC_Session2-master/scripts/
+cd $SCRATCH/GCRC_Session2-master/scripts/
 ./runSTARindex.sh
 ```
 
